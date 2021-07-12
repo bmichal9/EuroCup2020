@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="43dp"
+    android:layout_margin="5dp"
+    card_view:cardElevation="6dp"
+    card_view:cardCornerRadius="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#888888">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            android:textSize="25sp"
+            android:maxLines="1"
+            android:text="1"
+            android:layout_weight="0"
+            android:id="@+id/miejsce"/>
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="5dp"
+            android:textSize="25sp"
+            android:maxLines="1"
+            android:text=". "
+            android:layout_weight="0"
+            android:id="@+id/kropka"/>
+
+       <TextView
+           android:gravity="left"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:padding="5dp"
+           android:textSize="25sp"
+           android:maxLines="1"
+           android:layout_weight="1"
+           android:id="@+id/znajomy"/>
+
+       <TextView
+           android:gravity="center"
+           android:fontFamily="sans-serif-condensed"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:padding="5dp"
+           android:textSize="25sp"
+           android:layout_weight="0"
+           android:id="@+id/punkty"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

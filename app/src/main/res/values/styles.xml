@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- wyglad domyslny -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/gold</item><!-- kolor kolor paska aplikacji -->
+        <item name="colorPrimaryDark">@color/black</item><!-- kolor paska stanu - tego wyzej -->
+        <item name="android:colorBackground">@color/black</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <!-- wyglad tablayout -->
+    <style name="AppTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/gold</item> <!-- kolor podkreslenia -->
+        <item name="tabIndicatorHeight">4dp</item> <!-- wysokosc podkreslenia -->
+        <!-- <item name="tabPaddingStart">-1dp</item>  odstep od poczatku -->
+        <!--<item name="tabPaddingEnd">-1dp</item> odstep od konca -->
+        <item name="tabBackground">?attr/selectableItemBackground</item> <!-- tlo tabsow -->
+        <item name="tabTextAppearance">@style/AppTabTextAppearance</item>  <!-- odnosnik to atrybutow tekstu-->
+        <item name="tabSelectedTextColor">@color/gold</item> <!-- kolor wybranego tabsa -->
+    </style>
+
+    <!-- tekst tablayout -->
+    <style name="AppTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:fontFamily">sans-serif-black</item> <!--  czcionka -->
+        <!--  <item name="android:textSize">20sp</item>  wielkosc tekstu w tabsach -->
+        <item name="android:textColor">@color/white</item> <!--  kolor tekstu nie wybranego tabsa -->
+        <item name="textAllCaps">true</item> <!-- czy duze litery -->
+    </style>
+
+    <style name="AppTheme.Button" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/gold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+</resources>

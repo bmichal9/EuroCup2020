@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.eurocup2020">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Euro Cup"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".main.StartActivities.Credits"
+            android:configChanges="orientation"
+            android:label="Credits"
+            android:parentActivityName=".main.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".main.StartActivities.Next"
+            android:configChanges="orientation"
+            android:label="What Next"
+            android:parentActivityName=".main.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".log_reg.LostPass"
+            android:label="Lost Password"
+            android:configChanges="orientation"
+            android:parentActivityName=".main.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".main.StartActivities.Howtoplay"
+            android:label="How To Play"
+            android:configChanges="orientation"
+            android:parentActivityName=".main.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".main.Znajomi.ZnajomiDetailActivity"
+            android:label="Friend Details"
+            android:configChanges="orientation"
+            android:parentActivityName=".main.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".main.Mecz.MatchDetailActivity"
+            android:label="Match Details"
+            android:configChanges="orientation"
+            android:parentActivityName=".main.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".main.Options"
+            android:configChanges="orientation"
+            android:label="@string/options"
+            android:parentActivityName=".main.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".log_reg.RegistActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".log_reg.LoginActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".main.MainActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

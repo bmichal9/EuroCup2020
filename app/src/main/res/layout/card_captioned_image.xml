@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="145dp"
+    android:layout_margin="5dp"
+    card_view:cardCornerRadius="10dp"
+    card_view:cardBackgroundColor="#888888">
+
+
+    <!--widok przygotowany na jeden mecz, nastepnie podmieniamy te mecze
+    a activity BetFragment i tam zmieniamy dane na temat danego meczu-->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/grupa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            android:gravity="center"/>
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/gradient"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/grupa" />
+
+        <ImageView
+            android:id="@+id/flaga1"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view"
+            app:srcCompat="@drawable/aut" />
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/imageView6"
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/flaga2"
+            app:layout_constraintStart_toEndOf="@+id/flaga1"
+            app:layout_constraintTop_toBottomOf="@+id/view"
+            app:srcCompat="@drawable/vs" />
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/flaga2"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view"
+            app:srcCompat="@drawable/bel" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/nazwa1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="@+id/flaga1"
+            app:layout_constraintTop_toBottomOf="@+id/flaga1" />
+
+        <TextView
+            android:id="@+id/nazwa2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            app:layout_constraintStart_toStartOf="@+id/flaga2"
+            app:layout_constraintTop_toBottomOf="@+id/flaga2" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

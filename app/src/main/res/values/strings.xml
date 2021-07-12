@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Euro Cup 2020</string>
+    <string name="type_your_email">Type your email</string>
+    <string name="type_your_password">Type your password</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+    <string name="logo_aplikacji_euro_cup_2020">Logo aplikacji Euro Cup 2020</string>
+    <string name="put_your_data_below_to_finish_the_registration">Put your data below to finish the registration</string>
+    <string name="put_your_email">Put your email here</string>
+    <string name="confirm_your_email">Retype your email here</string>
+    <string name="put_your_password">Put your password here</string>
+    <string name="put_your_name">Put your name here</string>
+    <string name="confirm_your_password">Retype your password here</string>
+    <string name="i_accept_term_of_agreements">I have read and accepted the <u>Terms and Conditions and Private Policy</u> </string>
+    <string name="options">Options</string>
+    <string name="onOptions">Go to options</string>
+    <string name="action_share">Share</string>
+    <string name="lost_password">lost password</string>
+    <string name="title_start">Start Fragment</string>
+    <string name="start_tab">Start</string>
+    <string name="bet_tab">Predict</string>
+    <string name="standings_tab">Tables</string>
+    <string name="friends_tab">Friends</string>
+    <string name="how_to_play">how to play</string>
+    <string name="click_on_the_match_to_proceed">Choose a match to predict!</string>
+    <string name="save_the_score">SAVE THE SCORE</string>
+    <string name="put_score">Put score</string>
+    <string name="click_below_each_flag_and_enter_predicted_score">Click below each flag and enter predicted score!</string>
+    <string name="friend_list">Friend list (click on a friend for details) </string>
+    <string name="add_new_friend">Add New Friend</string>
+    <string name="time_left_until_the_euro_championship_starts">Time until the UEFA EURO 2020/2021 starts:</string>
+    <string name="put_your_friends_name">Put your friend\'s name</string>
+    <string name="match">Match:</string>
+    <string name="predictions">Prediction:</string>
+    <string name="actual_score">Actual score:</string>
+    <string name="font_fontFamily_medium">sans-serif-medium</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="hint_name">Full Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="err_msg_name">Enter your full name</string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="err_msg_password">Enter the password</string>
+
+    <string name="h2p">Push for instructions!</string>
+    <string name="your_personal_data">Your personal data:</string>
+    <string name="copy_your_name_to_clipboard">Copy your name</string>
+    <string name="meczinfo1">48 hours before start of every match you will be able to predict the score.</string>
+    <string name="meczinfo2">You are predicting the score only for regular game time.</string>
+    <string name="meczinfo3">You will get 3 points for predicting exact number of goals for each team.</string>
+    <string name="meczinfo4">You will get 1 point for right predicting which team will win/lost or if there will be a draw.</string>
+    <string name="meczinfo5">You can add friends to your friend list and compare your results.</string>
+    <string name="meczinfo6">Good Luck and Have Fun!</string>
+    <string name="back">back</string>
+    <string name="sorry_but_this_option_is_still_under_construction">Sorry but this option is still under construction.</string>
+    <string name="i_am_currently_working_to_make_reminding_of_a_password_fully_automatical">I am currently working on making password recovery automatic.</string>
+    <string name="if_youw_wish_to_reset_your_password_please_send_me_an_email_only_e_mail_adresses_used_during_registration_process_will_be_accepted">If you wish to reset your password please email me - support@eurocup.online, only e-mail address used during registration process will be accepted.</string>
+    <string name="meczinfo7">Prediction chance close about one hour before every match.</string>
+    <string name="logout">logout</string>
+
+    <string name="play1">Play EURO CUP with me!</string>
+    <string name="play2">Register and add me to FriendList</string>
+    <string name="play3">My name is: </string>
+    <string name="come_back_tomorrow_for_more_matches">Come back tomorrow for more matches!</string>
+    <string name="the_application_is_still_developing">The application is still under development.</string>
+    <string name="in_the_near">In the near future it is planned to introduce a new layout of the application and add new features. Also automatic password recovery will be introduced.</string>
+    <string name="after_euro_2020">After Euro 2020, with the start of the new football season, a new game starts. You will be able to predict the results of national leagues and compete with friends for the title of best league expert!</string>
+    <string name="stay_tuned_and_wait_until_next_football_season_start">Stay tuned and wait until next football season starts!</string>
+    <string name="this_application_1">This application was developed only by one person with small but extremely important help of one talented graphic designer.</string>
+    <string name="the_service_presents_the_results_of_uefa_euro_2020_matches">The service presents the results of UEFA Euro 2020 matches.</string>
+    <string name="creditssss">The player has the ability to predict the results of individual matches and score points for good guessing. The results can be compared with other players.</string>
+    <string name="cooperation">If you are interested in cooperation on the application or other professional cooperation feel free to contact me:</string>
+
+
+</resources>

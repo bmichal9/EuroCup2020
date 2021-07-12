@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/predict"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/click_on_the_match_to_proceed"
+        android:padding="5dp"
+        android:textSize="15sp"/>
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loadingBet"
+        android:visibility="gone"
+        android:paddingTop="20dp"/>
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/tomorrow"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="@string/come_back_tomorrow_for_more_matches"/>
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/typujfr"
+    android:scrollbarStyle="outsideOverlay"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:scrollbars="vertical"/>
+</LinearLayout>

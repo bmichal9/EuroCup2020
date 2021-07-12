@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="10dp"
+        tools:context=".log_reg.LoginActivity">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/euro2020"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:contentDescription="@string/logo_aplikacji_euro_cup_2020" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:paddingTop="10dp"
+            android:id="@+id/loginEmail"
+            android:layout_below="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/put_your_email"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/email"
+                android:maxLength="35"
+                android:inputType="textEmailAddress"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:paddingTop="10dp"
+            android:id="@+id/loginPassword"
+            android:layout_below="@+id/loginEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/put_your_password"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/password"
+                android:maxLength="40"
+                android:inputType="textPassword"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_below="@id/loginPassword"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="55dp"
+            android:text="@string/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <ProgressBar
+            android:id="@+id/loading"
+            android:layout_below="@+id/loginPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:paddingBottom="30dp"/>
+
+        <LinearLayout
+            android:layout_below="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="25dp"
+            android:gravity="center|bottom">
+            <Button
+                android:id="@+id/btn_regist1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/register"
+                android:layout_marginRight="5dp"/>
+            <Button
+                android:id="@+id/btn_lost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/lost_password"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>
